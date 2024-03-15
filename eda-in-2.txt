@@ -1,0 +1,4 @@
+Average Fare by Passenger Class:
+Class 1: $1.05
+Class 2: $-0.23
+Class 3: $-0.37

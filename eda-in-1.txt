@@ -1,0 +1,3 @@
+Survival Rate by Gender:
+Male: 18.89%
+Female: 74.20%
