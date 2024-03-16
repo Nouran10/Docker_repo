@@ -1,0 +1,2 @@
+Mean Age of Passengers: 29.70 years
+Median Age of Passengers: 29.70 years

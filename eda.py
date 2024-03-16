@@ -2,6 +2,8 @@ def eda(df):
     import pandas as pd
     import numpy as np
 
+   
+
 
     # Insight 1: Survival Rate by Gender
     survival_rate_by_gender = df.groupby('Sex')['Survived'].mean()
@@ -22,5 +24,12 @@ def eda(df):
     passengers_with_family_percentage = (df[df['FamilySize'] > 0].shape[0] / df.shape[0]) * 100
     with open("eda-in-3.txt", "w") as file:
         file.write("Percentage of Passengers with Family: {:.2f}%\n".format(passengers_with_family_percentage))
+
+    # Insight 4: Mean and Median Age of Passengers
+    mean_age = df['Age'].mean()
+    median_age = df['Age'].median()
+    with open("eda-in-4.txt", "w") as file:
+        file.write("Mean Age of Passengers: {:.2f} years\n".format(mean_age))
+        file.write("Median Age of Passengers: {:.2f} years\n".format(median_age))
 
     print("Insights saved as text files.")

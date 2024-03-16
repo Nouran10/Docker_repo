@@ -1,13 +1,13 @@
 # Assignment 1
 
 ## Contributors
-Nouran Ahmed
+Nouran Ahmed --
 Shahd Ayman
 
 ## To start up the Docker Image
 use the following command
 ```bash
-bash start-up.sh
+bash start.sh
 ```
 ## github link
 ```bash
