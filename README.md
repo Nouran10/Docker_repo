@@ -14,3 +14,8 @@ bash start.sh
 https://github.com/Nouran10/Docker_repo
 ```
 
+## Docker
+pull using this command
+```bash
+docker pull nouran2002/bda1
+```
